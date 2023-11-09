@@ -4,10 +4,11 @@ import os
 import requests
 import json
 from api_keys import meshy_api_key
+from api_keys import gpt_api_key
 import openai
 
 def shouldStop(input_str, model="gpt-3.5-turbo"):
-    openai.api_key = "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"
+    openai.api_key = gpt_api_key 
     prompt = f"determine whether the text delimited by triple backticks contains number 1 at the end. {input_str} \n Format: 1/0"
     messages = [{"role": "user", "content": prompt}]
     response = openai.ChatCompletion.create(
