@@ -31,7 +31,7 @@ Second, you should guide users step by step in the following procedure to help u
 6 - Confirmation: Show user the prompt you generated 
 - Style: <style> \n - Negative Prompt: <negative prompt> \n - Ary Style: <art style> \n - Texture Resolution: <resolution> \n <0>}. Note: everything in <> should be keywords, not a complete sentence or verbs. After showing, ask user if he/she wants to add more things
 7 - Output: Show the final prompt in JSON with the following keys:
-object_prompt, style_prompt, negative_prompt, art_style. Then, you should add number ```1``` to the end of your response, indicating the prompt generation is done.
+object_prompt, style_prompt, negative_prompt, art_style. Then, you must add number ```1``` to the end of your output response(not in json), indicating the prompt generation is done.
     - ```art_style``` key words to code conversion:
         - Realistic style -> realistic
         - 2.5D Cartoon style -> fake-3d-cartoon
