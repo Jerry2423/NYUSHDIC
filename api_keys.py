@@ -1,2 +1,2 @@
-meshy_api_key = ""
-gpt_api_key = ""
+meshy_api_key = "msy_xLyNkJ7taYmF4g3KJ3w08W02lUVdcO1ZT0QK"
+gpt_api_key = "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"
